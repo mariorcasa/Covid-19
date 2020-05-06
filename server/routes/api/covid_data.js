@@ -10,7 +10,7 @@ router.get('/', async (request, response) => {
 
 async function loadDataCollection() {
     const client = await mongodb.MongoClient.connect(
-      'mongodb://ec2-3-23-77-153.us-east-2.compute.amazonaws.com:27017',
+      'mongodb://ec2-18-188-86-220.us-east-2.compute.amazonaws.com:27017',
       {
         useNewUrlParser: true
       }
